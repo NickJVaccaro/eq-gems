@@ -1,0 +1,6 @@
+.board-table {
+    border-spacing: 0px;
+    border-style: ridge;
+    border-color: gray;
+    display: inline-block;
+}

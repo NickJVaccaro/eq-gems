@@ -1,0 +1,11 @@
+<app-gem [gemType]="nextGem" id="nextGem"></app-gem>
+<app-gem [gemType]="currentGem" id="currentGem"></app-gem>
+
+<table class="board-table">
+  <td *ngFor="let column of getColumns()">
+    <tr *ngFor="let row of getRows()">
+      <div style="width: 36px; height: 28px;" id="r{{column}}-{{row}}">
+      </div>
+    </tr>
+  </td>
+</table>
